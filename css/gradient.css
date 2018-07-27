@@ -1,0 +1,191 @@
+.peach-gradient {
+ background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+}
+
+.purple-gradient {
+ background-image: linear-gradient(120deg, #ff6ec4 0%, #7873f5 100%);
+}
+
+.blue-gradient {
+ background-image: linear-gradient(120deg, #5ed1fc 0%, #3647b3 100%);
+}
+
+.aqua-gradient {
+ background-image: linear-gradient(-140deg, #05ffa3 0%, #2096ff 100%);
+}
+
+.btn-rounded {
+ border-radius: 10em;
+}
+
+.btn-floating.btn-lg i {
+ font-size: 1.625rem;
+ line-height: 61.1px;
+}
+
+.btn-floating i {
+ display: inline-block;
+ width: inherit;
+ text-align: center;
+ color: #fff;
+ font-size: 1.25rem;
+ line-height: 47px;
+}
+
+.fa {
+ display: inline-block;
+ font: normal normal normal 14px/1 FontAwesome;
+ font-size: inherit;
+ text-rendering: auto;
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+}
+
+.btn-group-lg>.btn,
+.btn-lg {
+ padding: .5rem 1rem;
+ font-size: 1.25rem;
+ line-height: 1.5;
+ border-radius: .3rem;
+}
+
+.btn-floating {
+ webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);
+ box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);
+ width: 47px;
+ height: 47px;
+ position: relative;
+ z-index: 1;
+ vertical-align: middle;
+ display: inline-block;
+ overflow: hidden;
+ -webkit-transition: all .2s ease-in-out;
+ -o-transition: all .2s ease-in-out;
+ transition: all .2s ease-in-out;
+ margin: 10px;
+ -webkit-border-radius: 50%;
+ border-radius: 50%;
+ padding: 0;
+ cursor: pointer;
+}
+
+.btn-floating i {
+ display: inline-block;
+ width: inherit;
+ text-align: center;
+ color: #fff;
+}
+
+.btn-fb {
+ background: #4264aa;
+}
+
+.btn-tw {
+ background: #55acee;
+}
+
+.btn-gplus {
+ background: #dd4b39;
+}
+
+.btn-li {
+ background: #0082ca;
+}
+
+.btn-ins {
+ background: #2e5e86;
+}
+
+.btn-pin {
+ background:#c61118;
+}
+
+.btn-yt {
+ background: #ed302f;
+}
+
+.btn-dribbble{
+ background: #ec4a89;
+}
+
+.btn-vk{
+ background:#4c75a3;
+}
+
+.btn-so{
+ background: #ffac44
+}
+.btn-slack{
+ background: #56b68b;
+}
+.btn-git{
+ background:#333;
+}
+.btn-comm{
+ background:#30cfc0;
+}
+.btn-email{
+ background:#4b515d;
+}
+.btn-reddit{
+ background: #ff4500;
+}
+
+.fb-ic{
+ color: #3b5998 !important;
+}
+.tw-ic{
+ color:#55acee !important;
+}
+.gplus-ic{
+ color: #dd4b39 !important;
+}
+.li-ic{
+ color: #2e5e86 !important;
+}
+.ins-ic{}
+.pin-ic{}
+.vk-ic{}
+.yt-ic{}
+.dribbble-ic{}
+.so-ic{}
+.slack-ic{}
+.git-ic{}
+.comm-ic{}
+.email-ic{}
+.reddit-ic{}
+
+
+.counter {
+ -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+ box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+ position: absolute;
+ z-index: 2;
+ margin-top: 0;
+ margin-left: -23px;
+ -webkit-border-radius: 10em;
+ border-radius: 10em;
+ padding: 1px 7px;
+ background-color: #fe1212;
+ font-size: 11px;
+ color: #fff;
+ left: auto;
+}
+
+.btn-floating-container {
+ right: 50px;
+ bottom: 50px;
+ position: fixed;
+}
+
+.btn-floating {
+ width: 50px;
+ height: 50px;
+ border-radius: 50%;
+ box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 1) !important;
+ text-align: center;
+ padding: 0px;
+}
+.fa-ico{
+ font-size: 2em !important;
+}

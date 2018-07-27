@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design Bootstrap</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/gradient.css">
+
+</head>
+
+<body class="container">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg  navbar-light nav-color fixed-top">
+    <div class="container">
+      <!-- Collapse button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collapsible content -->
+      <div class="collapse navbar-collapse justify-content-center font-weight-bold" id="basicExampleNav">
+
+        <!-- Links -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="abaut_us.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+
+        </ul>
+        <!-- Links -->
+
+        <!-- Navbar brand -->
+        <a class="navbar-brand px-lg-4 mr-0" href="#">
+          <img src="img/logo.png" alt="logo" class="logo">
+        </a>
+
+        <!-- Links -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Business Ethics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+        <!-- Links -->
+      </div>
+    </div>
+  </nav>
+  <!--/.Navbar-->
+  <!-- Full Page Intro -->
+  <div class="">
+    <img src="img/truck.gif"  alt="" class="img-fluid gif">
+    <button onclick="play()" class="  btn btn-floating pulse blue-gradient start">Start Engine</button>
+    <audio id="audio" src="audio/Truck Engine.ogg"></audio>
+    <hr class="hr-light">
+    
+    <div class="">
+
+      <!-- Content -->
+      <div class="container">
+
+        <!--Grid row-->
+        <div class="row wow fadeIn">
+
+          <!--Grid column-->
+          <div class="col-md-6 mb-4 white-text text-center text-md-left">
+
+            <h1 class="black-text display-4 font-weight-bold">Welcome to Truck Services</h1>
+
+            <hr class="hr-dark">
+
+            <p class="grey-text">
+              <strong>Leader in Logistics & Transportation</strong>
+            </p>
+
+            <p class=" grey-text mb-4 d-none d-md-block">
+              <strong>With more than 25 years offering the best service to our clients with seriousness and profecionality.</strong>
+            </p>
+
+            <a target="_blank" href="Business_ethics.html" class=" btn peach-gradient btn-rounded waves-effect ">Business Ethics
+              <i class="fa fa-thumbs-o-up ml-2" aria-hidden="true"></i>
+            </a>
+
+
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-6 col-xl-5 mb-4">
+
+            <!--Card-->
+            <div class="card">
+
+              <!--Card content-->
+              <div class="card-body">
+
+                <!-- Form -->
+                <form name="">
+                  <!-- Heading -->
+                  <h3 class="dark-grey-text text-center">
+                    <strong>Write to us:</strong>
+                  </h3>
+                  <hr>
+
+                  <div class="md-form">
+                    <i class="fa fa-user prefix grey-text"></i>
+                    <input type="text" id="form3" class="form-control">
+                    <label for="form3">Your name</label>
+                  </div>
+                  <div class="md-form">
+                    <i class="fa fa-envelope prefix grey-text"></i>
+                    <input type="text" id="form2" class="form-control">
+                    <label for="form2">Your email</label>
+                  </div>
+
+                  <div class="md-form">
+                    <i class="fa fa-pencil prefix grey-text"></i>
+                    <textarea type="text" id="form8" class="md-textarea"></textarea>
+                    <label for="form8">Your message</label>
+                  </div>
+
+                  <div class="text-center">
+                    <button class="btn peach-gradient btn-rounded waves-effect">Send</button>
+                    <hr>
+                    <fieldset class="form-check">
+                      <input type="checkbox" class="form-check-input" id="checkbox1">
+                      <label for="checkbox1" class="form-check-label dark-grey-text">Subscribe me to the newsletter</label>
+                    </fieldset>
+                  </div>
+
+                </form>
+                <!-- Form -->
+
+              </div>
+
+            </div>
+            <!--/.Card-->
+
+          </div>
+          <!--Grid column-->
+
+        </div>
+        <!--Grid row-->
+
+      </div>
+      <!-- Content -->
+
+    </div>
+    <!-- Mask & flexbox options-->
+
+  </div>
+  <!-- Full Page Intro -->
+  <!--Main layout-->
+  <main>
+    <div class="container">
+      <!--live chat-->
+      <div class="floating-chat">
+          <i class="fa fa-comments fa-2x" aria-hidden="true"></i>
+          <div class="chat">
+              <div class="header">
+                <span class="title">
+                  Chat en linea
+                </span>
+                <button>
+                  <i class="fa fa-times" aria-hidden="true"></i>
+                </button>
+              </div>
+              <ul class="messages">
+                  <li class="other">Hola!</li>
+                  <li class="other">como puedo obtener un sevicio</li>
+                  <li class="self">Que servicio necesita </li>
+                  <li class="other">Trasportacion</li>
+                  <li class="self">Que tipo Carga</li>
+                  <li class="other">Contanedores desde el puerto </li>
+                  <li class="self">Seguro y confiable</li>
+                  <li class="other">Hablemos de Negocios </li>
+                  <li class="self">:)</li>
+              </ul>
+              <div class="footer">
+                  <div class="text-box" contenteditable="true" disabled="true"></div>
+                  <button id="sendMessage">send</button>
+              </div>
+          </div>
+      </div>
+    </section>
+    <!--Footer-->
+    
+  <!--/.Footer-->
+  </main>
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <!-- Initializations -->
+  <script type="text/javascript">
+    // Animations initialization
+    new WOW().init();
+  </script>
+</body>
+
+</html>
